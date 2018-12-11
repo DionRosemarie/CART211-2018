@@ -7,61 +7,78 @@
 </head>
 
 <body>
-
 	<nav>
-		<a href="#"></a>
-		<a href="#"></a>
-		<a href="#"></a>
-		<a href="#zxw"></a>
+		<a href="#" class="hvr-bounce-to-right">home</a>
+		<a href="#" class="hvr-bounce-to-right">about</a>
+		<a href="#" class="hvr-bounce-to-right">portfolio</a>
+		<a href="#" class="hvr-bounce-to-right">contact</a>
 	</nav>
-	<video autoplay muted loop poster="images/trees.jpg" id="myVideo">
-		<source src="video/glitch.mp4" type="video/mp4">
+
+	<video autoplay loop muted poster="images/water.jpg" id="water">
+		<source src="video/.1.mp4" type="video/mp4">
 	</video>
 
 	<section id="first">
-		<article id="content">
-		<h1> KEY CODE </h1>
-		<button id="myBtn" onclick="myFunction()">Pause</button>
-	</article>
+		<article class="content">
+			<h1>Header</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.
+			Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.</p>
+			<button id="myBtn" onclick="myFunction()">Pause</button>
+		</article>
 	</section>
 
 	<section id="second">
-		<figure id="f1"><h1>figure 1</h1><figcaption>description of fig1<figcaption></figure>
-		<figure id="f2"><h1>figure 2</h1><figcaption>description of fig2<figcaption></figure>
-		<figure id="f3"><h1>figure 3</h1><figcaption>description of fig3<figcaption></figure>
-		<figure id="f4"><h1>figure 4</h1><figcaption>description of fig4<figcaption></figure>
+		<figure id="f1">
+			<h1>figure1</h1>
+			<figcaption>description of fig1</figcaption>
+		</figure>
+
+		<figure id="f2">
+			<h1>figure2</h1>
+			<figcaption>description of fig2</figcaption>
+		</figure>
+
+		<figure id="f3">
+			<h1>figure3</h1>
+			<figcaption>description of fig3</figcaption>
+		</figure>
+
+		<figure id="f4">
+			<h1>figure4</h1>
+			<figcaption>description of fig4</figcaption>
+		</figure>
 	</section>
 
 	<div id="anim"></div>
+
 	<article id="display_me">
-		<h1>JavaScript</h1>
+		<h1>javascript</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<span id"close" onclick="hidefunction()">X</span>
+		<span id="close" onclick="hideFunction()">X</span>
 	</article>
 
-	<button id-"trigger" onclick="showfunction()">show something</button>
+	<button id="trigger" onclick="showFunction()">show something</button>
 
 	<script>
-		//init the vars
-		var video = document.getElementById("myVideo");
+		var video = document.getElementById("water");
 		var btn = document.getElementById("myBtn");
-
 		function myFunction(){
 			if(video.paused){
 				 video.play();
     			 btn.innerHTML = "Pause";
-			} else {
+			}
+			else {
     			video.pause();
     			btn.innerHTML = "Play";
-  			}
+  		}
 		}
-		function showFunction(){
+		function showFunction() {
 			document.getElementById("display_me").style.opacity = 1;
 		}
-		function hideFunction(){
+		function hideFunction() {
 			document.getElementById("display_me").style.opacity = 0;
 		}
-
 	</script>
+
 </body>
 </html>

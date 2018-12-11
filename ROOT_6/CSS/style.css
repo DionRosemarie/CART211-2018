@@ -13,17 +13,22 @@ html, body {
 #s1 {
   width: 100%;
   height: 100%;
-  background: url(../IMAGES/CORGI.jpg) no-repeat fixed center center;
+  background: url(../IMAGES/1.jpg) no-repeat fixed center center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #s1 hgroup {
   background: #fff;
   padding: 20px;
   width: 40%;
-  position: absolute;
+  text-align: center;
+
+  /* position: absolute;
   top: 40px;
-  right: 40px;
+  right: 40px; */
 }
 
 #s1 h2 {
@@ -41,22 +46,21 @@ html, body {
 }
 
 #s2 {
-  background:#586882;
+  background: tomato;
   min-height: 30%;
   height: auto;
   padding: 40px;
 }
 
 #s2 article {
-  margin: 50px;
-  column-count: 5;
+  column-count: 3;
 
 }
 
 #s3 {
   width: 100%;
   height: 100%;
-  background: url(../IMAGES/2-face.jpg) no-repeat fixed center center;
+  background: url(../IMAGES/2.jpeg) no-repeat fixed center center;
   background-size: cover;
   position: relative;
 }
@@ -68,4 +72,31 @@ html, body {
   position: absolute;
   bottom: 40px;
   left: 40px;
+}
+
+#s4 {
+  background-color: grey;
+  width: 100%;
+  min-height: 50%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+figure {
+  background: tomato;
+  margin: 20px;
+  /* width: 200px; */
+  height: 200px;
+  flex-grow: 1;
+}
+
+.bigger {
+  flex-grow: 6;
+}
+
+.small {
+  flex-grow: 1;
 }

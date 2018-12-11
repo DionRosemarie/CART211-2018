@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>video example</title>
+  <link rel="stylesheet" href="css/video.css">
+</head>
+
+<body>
+  <video autoplay loop muted poster="images/giantwheel.jpg" id="wheel">
+    <source src="videos/giantwheel.mp4" type="video/mp4">
+  </video>
+
+  <section id="first">
+    <article class="content">
+      <h1>Heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+    </article>
+  </section>
+
+  <section id="second">
+  </section>
+
+  <script>
+    var video = document.getElementById("wheel");
+    var btn = document.getElementById("myBtn");
+    function myFunction() {
+      if(video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      }
+      else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+  </script>
+
+</body>
+</html>

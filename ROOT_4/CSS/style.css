@@ -1,0 +1,44 @@
+section {
+  background-color: #333;
+  width:100px;
+  height:100px;
+  margin:10px;
+}
+
+.rel {
+  background-color: #ffffff;
+
+
+}
+
+#parent {
+  background-color: #666666;
+  width: :50%;
+}
+
+#abso {
+  background-color: crimeson;
+  width: :50%;
+
+
+}
+
+
+#s1  {
+  background-color: black;
+  width: 100%;
+  height: 70%;
+  position: relative;
+
+
+}
+#s1 hgroup {
+  width:400px;
+  background-color: black;
+  padding: 20px;
+  position: absolute;
+  bottome:20px;
+  right: 20px;
+
+
+}

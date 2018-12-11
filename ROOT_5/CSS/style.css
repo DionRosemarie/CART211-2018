@@ -1,63 +1,71 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* === CCS Document === */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,900');
 * {
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
-  height :100%;
+  height: 100%;
 }
 
 #s1 {
   width: 100%;
-  height:100%;
-  background:url(../IMAGES/2-face.jpg) no-repeat fixed center center;
-  background-size : cover;
+  height: 100%;
+  background: url(../IMAGES/CORGI.jpg) no-repeat fixed center center;
+  background-size: cover;
 }
 
-#s1 hgroup{
-  background: #ffffff;
+#s1 hgroup {
+  background: #fff;
   padding: 20px;
-  width:20%;
-  height :50%;
-  position :absolute;
-  top:40px;
-  right:40px;
-
+  width: 40%;
+  position: absolute;
+  top: 40px;
+  right: 40px;
 }
+
 #s1 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 2vmin;
 }
 
 #s1 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 9900;
+  font-weight: 900;
   font-size: 7vmax;
   text-transform: uppercase;
-
+  line-height: 7vmax;
 }
 
 #s2 {
-  background: : cadetblue;
+  background:#586882;
   min-height: 30%;
-  height:auto;
+  height: auto;
+  padding: 40px;
 }
 
-#s2 article{
-  column-count: 3;
+#s2 article {
+  margin: 50px;
+  column-count: 5;
+
 }
 
 #s3 {
-  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  background: url(../IMAGES/2-face.jpg) no-repeat fixed center center;
+  background-size: cover;
+  position: relative;
+}
+
+#s3 article {
+  background: #fff;
   padding: 20px;
-  width:20%;
-  height :50%;
-  position :absolute;
+  width: 20%;
+  position: absolute;
+  bottom: 40px;
   left: 40px;
-  bottom:40px;
-
-
 }

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Abel|Roboto|Roboto+Condensed');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+#s0 {
+  background-color: #EC4D42;
+}
+
+#s1 {
+  background: url(../images/public.jpg) no-repeat fixed center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: top;
+}
+
+#s1 h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #EC4D42;
+  font-size: 60px;
+  line-height: 1.2;
+  padding-left: 175px;
+  padding-top: 185px;
+  text-align: left;
+  position: relative;
+  top: 50px;
+}
+
+#s1 p {
+  font-family: 'Oswald', sans-serif;
+  color: #EC4D42;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  padding-top: 75px;
+  padding-left: 175px;
+}
+
+#s2 {
+  background-color: #EC4D42;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+#s2 h2 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 30px;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding-top: 125px;
+  padding-left: 175px;
+}
+
+
+#s2 p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: normal;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 175px;
+  padding-right: 175px;
+  padding-bottom: 100px;
+}
+#s3 {
+  background: url(../images/public.jpg) no-repeat fixed center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: top;
+}
+
+#s3 h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #EC4D42;
+  font-size: 60px;
+  line-height: 1.2;
+  padding-left: 175px;
+  padding-top: 125px;
+  text-align: left;
+  position: relative;
+  top: 50px;
+}
+#s3 p {
+  font-family: 'Oswald', sans-serif;
+  color: #EC4D42;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  padding-top: 75px;
+  padding-left: 175px;
+}
+#s4 {
+  background-color: #EC4D42;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 20px;
+  height: 100px;
+}
+#s4 h2 {
+  background-color: #EC4D42;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 30px;
+  line-height: normal;
+  text-align: left;
+  position: relative;
+  padding-top: 45px;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+
+#s5 {
+  background-color: #EC4D42;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+#s5 h2 {
+  background-color: #EC4D42;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: normal;
+  text-align: left;
+  position: relative;
+  padding-top: 45px;
+  padding-left: 175px;
+
+}
+
+#s5 p {
+    background-color: #EC4D42;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  padding-top: 75px;
+  padding-left: 175px;
+  padding-bottom: 75px;
+}
+nav {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  color: #F4E5C6;
+  word-spacing: 20px;
+  margin-right: 55px;
+  text-align: center;
+  display: block;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a:link {
+  display: inline-block;
+  color: #F4E5C6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F4E5C6;
+}
+
+a:hover {
+  color: white;
+}
+
+.texture {
+  width: 100%;
+  position: fixed;
+}
+
+
+.moodboard {
+  position: relative;
+  padding-top: 200px;
+  padding-left: 475px;
+  padding-right: 500px;
+  padding-bottom: 175px;
+  width: 100%;
+}
+
+.visual {
+  position: relative;
+  padding-top: 200px;
+  padding-left: 475px;
+  padding-right: 500px;
+  padding-bottom: 175px;
+  width: 100%;
+
+}

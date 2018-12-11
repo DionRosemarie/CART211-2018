@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+body {
+    background-color: black;
+}
+
+head {
+    background-color: black;
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer {
+  padding: 0;
+  color: grey;
+  margin-top: 50px;
+
+}
+
+/* ALL THE ELEMENTS FOR THE NAVIGATION BETWEEN THE PAGES */
+
+nav {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    word-spacing: 10px;
+    margin-top: 75px;
+    text-align: center;
+
+
+}
+
+a:link {
+    display : inline-block;
+    background-color: black;
+    color : white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* INFORMATIONS FOR THE NAVIGATIONS IN THE READING SECTION*/
+
+ul {
+    display: : block;
+    position: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    word-spacing: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+
+}
+
+li a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* INFORMATION FOR THE IMAGES AND BACKGROUND TEXTURE */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 190px;
+}
+
+.textureLeft {
+    width: 100%;
+    height: 0;
+    position: fixed;
+    left: -400px;
+    top: -260px;
+}
+
+
+.textureRight {
+    width: 100%;
+    height: 0;
+    position: fixed;
+    top: 225px;
+    left: 400px;
+}
+
+/* INFORMATIONS FOR THE TEXT*/
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 80px;
+    font-style: normal;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 110px;
+    text-align: center;
+    border-bottom: 10px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 35px;
+
+}
+
+
+
+article {
+  width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}

@@ -1,0 +1,88 @@
+/* CCS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  
+    background-color: #eee;
+    font-family: Gotham, Helvetica, monospace, serif;
+}
+
+nav, header, article {
+    margin-bottom: 20px;
+/*  border: dotted 1px red; */
+}
+
+/* === NAV INFO HERE === */
+nav {
+    background-color: yellow;
+/*  text-align: center;  */
+}
+
+a:link {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+a:visited {
+    color: cornsilk;
+}
+
+a:hover {
+    color: #333;
+    background-color: #eee;
+}
+
+/* === HEADER INFO HERE === */
+header {
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header h2 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #999;
+    text-align: center;
+}
+
+/* === ARTICLE INFO HERE === */
+article {
+    padding: 0 20px;
+}
+
+article h1 {
+    font-size: 32px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+article p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 24px;
+/*  text-align: justify; */
+}
+
+/* === FOOTER INFO HERE === */
+footer {
+    padding: 0 20px;
+    font-style: italic;
+    font-family: Georgia, serif;
+    color: blue;
+    height: 100px;
+    background-color: black;
+}
